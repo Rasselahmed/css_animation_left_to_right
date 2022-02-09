@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mango{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 30px;
+
+    animation-name: komola;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    position: relative;
+    animation-direction: alternate;
+    
+
+}
+
+@keyframes komola{
+   from{left:0px;}
+   to{left:300px;}
+    
+}
+
